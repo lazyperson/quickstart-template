@@ -1,2 +1,3 @@
 # quickstart-template
-fe-start-kit使用的模板
+
+fe-start-kit脚手架使用的模板
