@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false
+      }
+    ],
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    [
+      "transform-runtime",
+      {
+        "polyfill": false
+      }
+    ],
+    "transform-decorators-legacy",
+    "mobx-deep-action",
+    "date-fns"
+  ]
+}
