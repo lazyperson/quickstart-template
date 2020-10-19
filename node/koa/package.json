@@ -1,0 +1,34 @@
+{
+  "name": "koa2-project",
+  "version": "1.0.0",
+  "description": "koa2 脚手架",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest --watch",
+    "dev": "cross-env NODE_ENV=dev nodemon",
+    "prod": "cross-env NODE_ENV=prod pm2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/dmhb_china/koa2-library-starter.git"
+  },
+  "author": "Dmhb",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-convert": "^2.0.0",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^9.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.3.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.5"
+  }
+}
