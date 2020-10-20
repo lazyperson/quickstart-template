@@ -24,25 +24,25 @@ app.use(json());
 app.use(logger());
 app.use(require('koa-static')(config.staticPath));
 
-app.use(views(path.join(__dirname, 'views'), {
-    extension: 'ejs'
-}));
+// app.use(views(path.join(__dirname, 'views'), {
+//     extension: 'ejs'
+// }));
 
 render(app, {
     root: path.join(__dirname, 'views'),
     layout: 'base',
     viewExt: 'ejs',
     cache: false,
-    debug: true
+    debug: false
 });
 
 // logger
-app.use(async (ctx, next) => {
-    const start = new Date();
-    await next();
-    const ms = new Date() - start;
-    console.log(`${ctx.method} ${ctx.url} - ${ms}ms`);
-});
+// app.use(async (ctx, next) => {
+//     const start = new Date();
+//     await next();
+//     const ms = new Date() - start;
+//     console.log(`${ctx.method} ${ctx.url} - ${ms}ms`);
+// });
 
 // routes
 app.use(home.routes());
@@ -53,7 +53,6 @@ app.on('error', (err, ctx) => {
     console.error('server error', err, ctx)
 });
 
-
 app.listen(config.port, () => {
-    console.warn(`Server Running! Port at ${config.port}`)
+    console.log(`Server Running! Port at ${config.port}`)
 });

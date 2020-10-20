@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
-    <title>登录</title>
-    <link rel='stylesheet' href='/static/css/default.css'/>
-</head>
-<body>
-    <h3>登录页面</h3>
-</body>
-</html>
+<h3>登录页面</h3>
+<form action="/user/login" method="post">
+    用户名: <input type="text" name="username" />
+    密码: <input type="password" name="password" />
+    <input type="submit"  value="登录" />
+</form>
