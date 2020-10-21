@@ -4,7 +4,7 @@ const config = {
     staticPath: `${process.cwd()}/public`,
     // 数据库配置
     database: {
-        DATABASE: 'nodesql',
+        DATABASE: 'koasql',
         USERNAME: 'root',
         PASSWORD: 'koa2',
         PORT: '3306',

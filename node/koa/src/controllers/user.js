@@ -2,7 +2,7 @@ exports.login = async ctx => {
     await ctx.render('login');
 }
 
-exports.login2 = async ctx => {
+exports.loginPost = async ctx => {
     // TODO: 链接数据库查询是否登录成功，成功后则跳转页面。 session
 }
 

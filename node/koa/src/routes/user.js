@@ -6,7 +6,7 @@ router.prefix('/user');
 
 router.get('/login', userCtrl.login);
 
-router.post('/login', userCtrl.login2);
+router.post('/login', userCtrl.loginPost);
 
 
 router.get('/admin', userCtrl.admin);
