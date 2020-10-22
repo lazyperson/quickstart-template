@@ -25,7 +25,8 @@
     "koa-onerror": "^4.1.0",
     "koa-router": "^9.4.0",
     "koa-static": "^5.0.0",
-    "koa-views": "^6.3.1"
+    "koa-views": "^6.3.1",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "cross-env": "^7.0.2",
