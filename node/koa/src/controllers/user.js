@@ -1,4 +1,5 @@
-const DataModel = require('../lib/mysql');
+const userModel = require('../models/user');
+
 
 exports.login = async ctx => {
     await ctx.render('login');
@@ -6,8 +7,14 @@ exports.login = async ctx => {
 
 exports.loginPost = async ctx => {
     // TODO: 链接数据库查询是否登录成功，成功后则跳转页面。 session
-    console.log(ctx.request.body);
-
+    const { username, password } = ctx.request.body;
+    await userModel.loginPost([username, password]).then(result => {
+        if (result) {
+            ctx.response.redirect('/user/admin');
+        } else {
+            ctx.response.redirect('/user/login');
+        }
+    });
 }
 
 exports.admin = async ctx => {

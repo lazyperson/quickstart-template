@@ -10,8 +10,11 @@ const userSelect = 'select count(1) as len from users';
 
 const userInsert = `INSERT INTO users (name, pass, datetime) VALUES ('lazyperson', '123456', '2020-10-22 10:10:40');`;
 
+const userLogin = 'select * from users where name = ? and pass = ?;'
+
 module.exports = {
     userTable,
     userSelect,
-    userInsert
+    userInsert,
+    userLogin
 };
