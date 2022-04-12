@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover">
+	<meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+	<title><%= HtmlWebpackPlugin.options.title %></title>
+    <style>
+        * {
+			-webkit-tap-highlight-color: transparent;
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		html,
+		body,
+		#root {
+			height: 100%;
+		}
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <% if (htmlWebpackPlugin.options.env === 'production') {
+	<script src="https://cdn.bootcdn.net/ajax/libs/react/16.14.0/umd/react.production.min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/react-dom/16.14.0/umd/react-dom.production.min.js"></script>
+	<% } %>
+</body>
+</html>

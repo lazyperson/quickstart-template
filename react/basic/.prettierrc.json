@@ -1,0 +1,18 @@
+{
+    
+    "extends": [
+      "plugin:prettier/recommended",
+      "prettier/react",
+      "prettier/standard"
+    ],     
+    "printWidth": 100,
+    "tabWidth": 4,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "TrailingCooma": "none",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "avoid",
+    "endOfLine": "auto"
+  }
