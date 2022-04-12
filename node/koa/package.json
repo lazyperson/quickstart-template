@@ -1,7 +1,7 @@
 {
-  "name": "koa2-project",
-  "version": "1.0.0",
-  "description": "koa2 脚手架",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
   "main": "src/app.js",
   "scripts": {
     "test": "jest --watch",
@@ -12,8 +12,9 @@
     "type": "git",
     "url": "https://github.com/lazyperson/quickstart-template.git"
   },
-  "author": "Dmhb",
-  "license": "MIT",
+  "keywords": "{{keywords}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
   "dependencies": {
     "ejs": "^3.1.5",
     "koa": "^2.13.0",

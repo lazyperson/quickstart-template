@@ -1,7 +1,7 @@
 {
-	"name": "react-project",
-	"version": "1.0.0",
-	"description": "React framework front-end project template",
+	"name": "{{name}}",
+	"version": "{{version}}",
+	"description": "{{description}}",
 	"main": "index.js",
 	"scripts": {
 		"start": "cross-env NODE_ENV=development webpack-dev-server --config=./webpack/webpack-dev.config.js --env mode=mock",
@@ -14,8 +14,9 @@
 		"lint": "eslint src",
 		"precommit": "npm run lint"
 	},
-	"author": "lazyperson",
-	"license": "MIT",
+	"keywords": "{{keywords}}",
+	"author": "{{author}}",
+	"license": "{{license}}",
 	"dependencies": {
 		"axios": "^0.19.2",
 		"history": "^5.0.0",

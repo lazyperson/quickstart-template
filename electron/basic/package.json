@@ -1,17 +1,15 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
+  "keywords": "{{keywords}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": "https://github.com/lazyperson/quickstart-template",
-  "keywords": [
-    "Electron"
-  ],
-  "author": "lazyperson",
-  "license": "MIT",
   "devDependencies": {
     "electron": "^5.0.6"
   }

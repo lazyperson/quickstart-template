@@ -1,7 +1,7 @@
 {
-  "name": "mobx-template",
-  "version": "1.0.0",
-  "description": "react mobx 模板项目",
+  "name": "{{name}}",
+  "version": "{{version}}",
+  "description": "{{description}}",
   "main": "index.js",
   "scripts": {
     "start": "webpack webpack/webpack-dev.config.js",
@@ -9,12 +9,9 @@
     "prepush": "eslint src",
     "debug": "node --inspect --debug-brk webpack/webpack-dev.config.js"
   },
-  "keywords": [
-    "react",
-    "mobx"
-  ],
-  "author": "lazyperson",
-  "license": "MIT",
+  "keywords": "{{keywords}}",
+  "author": "{{author}}",
+  "license": "{{license}}",
   "dependencies": {
     "mobx": "^6.0.1",
     "mobx-react": "^7.0.0",
