@@ -1,0 +1,62 @@
+{
+	"extends": ["react-app"],
+	"plugins": [
+		"react-hooks",
+		"prettier"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"legacyDecorators": true
+		}
+	},
+	"rules": {
+		"prettier/prettier": "error",
+		"global-require": "off",
+		"space-before-function-paren": "off",
+		"no-return-assign": "off",
+		"no-inline-comments": "off",
+		"no-console": "off",
+		"no-case-declarations": "off",
+		"no-process-env": "off",
+		"no-underscore-dangle": "off",
+		"no-nested-ternary": "off",
+		"react/no-find-dom-node": "off",
+		"react/no-set-state": "off",
+		"arrow-body-style": "off",
+		"no-unused-vars": "error",
+		"react/jsx-boolean-value": [
+			"off",
+			"always"
+		],
+		"react/react-in-jsx-scope": "off",
+		"jsx-quotes": [
+			"error",
+			"prefer-double"
+		],
+		"react/jsx-no-undef": "error",
+		"react/jsx-sort-props": "off",
+		"react/jsx-sort-prop-types": "off",
+		"react/no-did-mount-set-state": "off",
+		"react/no-did-update-set-state": "off",
+		"react/no-multi-comp": "off",
+		"react/self-closing-comp": "error",
+		"react/jsx-wrap-multilines": "off",
+		"react/sort-comp": "error",
+		"prefer-destructuring": "off",
+		"comma-dangle": "off",
+		"prefer-promise-reject-errors": "off",
+		"object-curly-spacing": [
+			"error",
+			"always",
+			{
+				"objectsInObjects": true,
+				"arraysInObjects": true
+			}
+		],
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"jsx-a11y/iframe-has-title": "off",
+		"jsx-a11y/href-no-hash": "off"
+	}
+}
