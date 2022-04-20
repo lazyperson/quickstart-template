@@ -28,7 +28,7 @@ fe-start-kit help
 *******************************************************************************
 react              |     OK     |    React basic development template
 react_mobx         |     OK     |    React development template includes mobx
-react_redux        |    TODO    |    React development template includes redux
+react_redux        |     OK     |    React development template includes redux
 vue                |    TODO    |    Vue basic development template
 express            |    TODO    |    Express development template
 koa                |     OK     |    Koa development template
