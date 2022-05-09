@@ -25,7 +25,7 @@ fe-start-kit help
 ```
 
 ```
-*******************************************************************************
+*************************************************************************************
 react              |     OK     |    React basic development template
 react_mobx         |     OK     |    React development template includes mobx
 react_redux        |     OK     |    React development template includes redux
@@ -36,7 +36,7 @@ egg                |    TODO    |    Egg development template
 nw                 |    TODO    |    NW(node-webkit) development template
 electron           |     OK     |    Electron development template
 electron_react     |     OK     |    Electron development template includes TS, React
-*******************************************************************************
+*************************************************************************************
 
 
 
